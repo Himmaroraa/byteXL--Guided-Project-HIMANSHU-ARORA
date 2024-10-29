@@ -13,9 +13,11 @@ The problem addressed in this project is predicting whether an airline passenger
 referrals is crucial for airlines to identify influential passengers and implement strategies to enhance customer satisfaction and drive revenue growth.
 
 1. Introduction
-The airline industry is highly competitive, and customer satisfaction plays a vital role in an airline's success. Passengers' recommendations and referrals significantly influence potential customers' decisions. Therefore, understanding the factors that drive passenger referrals is essential for airlines to improve their services and gain a competitive edge. This project utilizes machine learning techniques to analyze passenger reviews and develop a predictive model to identify potential referrers.
+The airline industry is highly competitive, and customer satisfaction plays a vital role in an airline's success.
+Passengers' recommendations and referrals significantly influence potential customers' decisions.
+Therefore, understanding the factors that drive passenger referrals is essential for airlines to improve their services and gain a competitive edge. This project utilizes machine learning techniques to analyze passenger reviews and develop a predictive model to identify potential referrers.
 
-2. Project Description
+3. Project Description
    
 The project follows a structured approach to building and evaluating classification models for passenger referral prediction. The key steps involved are as follows:
 1. Data Collection: Collect data from customer reviews and airline websites.
@@ -44,7 +46,8 @@ The primary stakeholders in this project include:
 
 
 5. Data Understanding
-The dataset includes airline reviews from 2006 to 2019 for popular airlines around the world. It contains multiple-choice and free-text questions. The data was scraped in Spring 2019.
+The dataset includes airline reviews from 2006 to 2019 for popular airlines around the world. It contains multiple-choice and free-text questions.
+The data was scraped in Spring 2019.
 Key Variables:
  Overall Rating: The overall rating given by the passenger.
  Value for Money: The passenger's rating of the value for the price paid.
@@ -73,12 +76,14 @@ Support Vector Machine          0.93     0.92     0.93
 K-Nearest Neighbour             0.90     0.91     0.92
 
 8. Conclusion
-This project successfully developed and evaluated various classification models for airline passenger referral prediction. The models achieved high accuracy and recall, indicating their 
-potential for practical application in the airline industry. Logistic Regression emerged as the best-performing model overall. The project also identified the most important features for 
-prediction, such as overall rating and value for money.By leveraging the developed models, airlines can gain insights into passenger preferences and identify potential referrers. This information can be used to implement targeted strategies for enhancing customer satisfaction, increasing referrals, and driving business growth. Airlines 
-should focus on improving the features that are most important to passengers, such as overall rating and value for money, to increase the likelihood of recommendations and ultimately expand their business.
+This project successfully developed and evaluated various classification models for airline passenger referral prediction.
+The models achieved high accuracy and recall, indicating their potential for practical application in the airline industry.
+Logistic Regression emerged as the best-performing model overall. The project also identified the most important features for prediction, such as overall rating and value for money.
+By leveraging the developed models, airlines can gain insights into passenger preferences and identify potential referrers.
+This information can be used to implement targeted strategies for enhancing customer satisfaction, increasing referrals, and driving business growth.
+Airlines should focus on improving the features that are most important to passengers, such as overall rating and value for money, to increase the likelihood of recommendations and ultimately expand their business.
 
-9. Future Work
+10. Future Work
 Several areas can be explored to further enhance the project and its findings:
  Incorporating Sentiment Analysis: Analyze the free-text comments in passenger reviews to gain a deeper understanding of passenger sentiments and their impact on referrals.
  Exploring Advanced Machine Learning Techniques: Experiment with more advanced models like deep learning to potentially improve prediction accuracy.
