@@ -17,7 +17,7 @@ The airline industry is highly competitive, and customer satisfaction plays a vi
 Passengers' recommendations and referrals significantly influence potential customers' decisions.
 Therefore, understanding the factors that drive passenger referrals is essential for airlines to improve their services and gain a competitive edge. This project utilizes machine learning techniques to analyze passenger reviews and develop a predictive model to identify potential referrers.
 
-3. Project Description
+2. Project Description
    
 The project follows a structured approach to building and evaluating classification models for passenger referral prediction. The key steps involved are as follows:
 1. Data Collection: Collect data from customer reviews and airline websites.
@@ -57,7 +57,7 @@ Key Variables:
  Seating Comfort: The passenger's rating of the seating comfort.
  Recommended: Whether the passenger would recommend the airline to their friends (target variable).
 
-7. Model Evaluation
+6. Model Evaluation
 The classification models are evaluated based on the following metrics:
  Recall: The proportion of actual positive cases correctly identified by the model. Recall is given the highest priority in this project as it is crucial for airlines to identify as many potential referrers as possible. A higher recall indicates that the model is effectively capturing a larger percentage of passengers who would recommend the airline.
  Accuracy: The proportion of correctly classified instances (both positive and negative) out of the total instances. While accuracy is a commonly used metric, it may not be the most suitable in cases with imbalanced datasets. However, it still provides a general indication of the model's overall performance.
@@ -75,7 +75,7 @@ Decision Tree                   0.91     0.90     0.92
 Support Vector Machine          0.93     0.92     0.93
 K-Nearest Neighbour             0.90     0.91     0.92
 
-8. Conclusion
+7. Conclusion
 This project successfully developed and evaluated various classification models for airline passenger referral prediction.
 The models achieved high accuracy and recall, indicating their potential for practical application in the airline industry.
 Logistic Regression emerged as the best-performing model overall. The project also identified the most important features for prediction, such as overall rating and value for money.
@@ -83,7 +83,7 @@ By leveraging the developed models, airlines can gain insights into passenger pr
 This information can be used to implement targeted strategies for enhancing customer satisfaction, increasing referrals, and driving business growth.
 Airlines should focus on improving the features that are most important to passengers, such as overall rating and value for money, to increase the likelihood of recommendations and ultimately expand their business.
 
-10. Future Work
+8. Future Work
 Several areas can be explored to further enhance the project and its findings:
  Incorporating Sentiment Analysis: Analyze the free-text comments in passenger reviews to gain a deeper understanding of passenger sentiments and their impact on referrals.
  Exploring Advanced Machine Learning Techniques: Experiment with more advanced models like deep learning to potentially improve prediction accuracy.
