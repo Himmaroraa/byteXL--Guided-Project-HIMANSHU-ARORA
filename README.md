@@ -3,7 +3,8 @@ Airline Passenger Referral Prediction- A Comprehensive Project Description
 Project Summary
 This project aims to develop a classification model to predict whether airline passengers will recommend the airline to their friends. 
 The project involves data loading, exploratory data analysis (EDA), feature engineering, data cleaning, target encoding, feature selection, model building, hyperparameter tuning, and model evaluation. 
-Various classification models are used, including Logistic Regression, Random Forest, Naïve Bayes, Decision Tree, Support Vector Machine, and K-Nearest Neighbour. The models are evaluated based on recall, accuracy, and ROC AUC. 
+Various classification models are used, including Logistic Regression, Random Forest, Naïve Bayes, Decision Tree, Support Vector Machine, and K-Nearest Neighbour. 
+The models are evaluated based on recall, accuracy, and ROC AUC. 
 The project identifies the most important features for prediction and concludes with recommendations for airlines to improve customer satisfaction and increase referrals.
 
 Problem Description
